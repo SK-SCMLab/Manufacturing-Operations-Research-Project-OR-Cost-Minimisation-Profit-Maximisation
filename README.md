@@ -15,4 +15,39 @@ Factories face choices:
 
 ---
 
+## 🛕 Linear Programming Model 
+While SQL can't do true linear/MILP optimization, we can derive optimal plans heuristically by:
+- calculating max possible output for each product under each constraint
+- identifying bottleneck (smallest limiting factor for each product)
+- computing scenarios: all profit-maximization, all cost-minimisation
 
+---
+
+## 🏚 SQL Queries used
+- SELECT()
+- FROM()
+- ON()
+- WHERE()
+- JOIN()
+- WITH()
+- SUM()
+- PRIMARY KEY()
+- AUTOINCREMENT()
+- GROUP BY()
+- ORDER BY()
+- DESC()
+- MIN()
+- FOREIGN KEY()
+- REFERENCES()
+- MIN()
+
+---
+
+## 🏫 Requirements
+- DBeaver > SQLite
+- Fundamentals of Database Management System
+- Fundamentals of Operations Research
+
+---
+
+*"The conclusions of most good operations research studies are obvious" - Robert E. Machol*
